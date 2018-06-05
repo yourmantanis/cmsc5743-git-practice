@@ -24,6 +24,7 @@ public class Car {
   public void setMake(String make) {
     this.make = make;
   }
+  
   public String getModel() {
     return model;
   }
@@ -78,6 +79,8 @@ public class Car {
   public void setDateSold(LocalDate dateSold) {
     this.dateSold = dateSold;
   }
+  
+  
   
   public boolean isOkToRemove() {
     if (getSalesPerson() == null) return true; else return false;

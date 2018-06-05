@@ -44,6 +44,6 @@ public class SalesPerson {
   }
   
   public String toString() {
-    return getName();
+    return getPosition() + " " + getName();
   }
 }

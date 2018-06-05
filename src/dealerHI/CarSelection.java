@@ -30,7 +30,7 @@ public class CarSelection extends JPanel {
   public CarSelection(JFrame currentFrame, Dealer dealer) {
     setLayout(null);
     
-    JLabel lblCarSelection = new JLabel("Car Selection");
+    JLabel lblCarSelection = new JLabel("Cars");
     lblCarSelection.setBounds(174, 24, 120, 16);
     add(lblCarSelection);
     

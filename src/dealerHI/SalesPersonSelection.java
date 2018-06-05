@@ -33,7 +33,7 @@ public class SalesPersonSelection extends JPanel {
   public SalesPersonSelection(JFrame currentFrame, Dealer dealer) {
     setLayout(null);
     
-    JLabel lblSalespersonSelection = new JLabel("Sales Person Selection");
+    JLabel lblSalespersonSelection = new JLabel("Sales Persons");
     lblSalespersonSelection.setBounds(152, 32, 145, 16);
     add(lblSalespersonSelection);
     
